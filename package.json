@@ -1,0 +1,21 @@
+{
+  "name": "mongoose-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "npm run build && node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.7.15",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
